@@ -1,0 +1,561 @@
+/* 
+    Document   : style
+    Created on : Apr 1, 2016, 1:22:04 PM
+    Author     : Montasser Mossallem
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+a:active , a:hover , a:focus , a:link {
+    text-decoration: none;
+}
+.bottom_options {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed ;
+     
+}
+.slideTogle {
+    float: right;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    text-align: center;
+}
+.option-controler {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    background: #222;
+    color: #fff;
+}
+   button {
+                 padding: 10px;
+                 cursor: pointer;
+                 background: tomato;
+                 border: 0px;
+                 margin: 10px;
+                 color: #fff;
+                 font-weight: bold;
+                 font-family: arial , sans-serif ;
+                float: right;
+                cursor: pointer;
+            }
+            
+            
+            #menu-dimensionals {
+                position: absolute ;
+                overflow: hidden;
+                display: block;
+                position: absolute ;
+                list-style: none;
+                bottom: 80px;
+                left: 0px;
+                width: 200px;
+                border: 1px solid red;
+                left: 20px;
+                background: tomato;
+                 padding: 0px;
+                 margin: 0px;
+                 z-index: 2000;
+                 display: none;
+                 border-radius: 3px;
+            }        
+            
+            #menu-dimensionals li {
+                cursor: pointer ;
+              border-bottom: 1px solid #fff;
+              overflow: hidden;
+               padding: 5px 5px;
+            }
+            #menu-dimensionals li:last-child {
+                border: 0px;
+            }
+            #menu-dimensionals li a {
+              color: #fff;
+            }
+           
+           
+           
+           
+             #menu-versions {
+                 position: absolute ;
+                overflow: hidden;
+                display: block;
+                position: absolute ;
+                list-style: none;
+                bottom: 80px;
+                 width: 200px;
+                border: 1px solid red;
+               left: 110px;
+                background: tomato;
+                 padding: 0px;
+                 margin: 0px;
+                 z-index: 2000;
+                 display: none;
+                 border-radius: 3px;
+            } 
+           
+            #menu-versions li {
+                cursor: pointer ;
+              border-bottom: 1px solid #fff;
+              overflow: hidden;
+               padding: 5px 5px;
+            }
+            #menu-versions li:last-child {
+                border: 0px;
+            }
+            #menu-versions li a {
+              color: #fff;
+            } 
+            
+            .arroww {
+                width: 0; 
+                height: 0; 
+                display: inline-block;
+                margin-bottom: -8px;
+                border-left: 25px solid transparent;
+                border-right: 25px solid transparent;
+                border-bottom: 25px solid #222;
+                cursor: pointer;
+               
+             }
+             .container-data {
+                 border-top: 1px solid #444;
+                background: #222; 
+             }
+             .fruler {
+                 margin-top: 20px;
+             }
+             .mainDivContainer {
+                width: 45%;
+                display: block;
+                overflow: hidden ;
+                color: #fff;
+                float: left;
+             }
+          
+             .mainDivContainer b {
+                 padding: 10px 20px;
+                 display: inline-block;
+                  
+             }
+             .v-module {
+                 display: none;
+                 background: #222;
+             }
+             .module-menupc {
+                 display: block;
+                 overflow: hidden;
+                 list-style: none;
+                 margin: 0px;
+                 
+             }
+             .module-menupc li {
+                 display: inline-block;
+                 overflow: hidden;
+                 position: relative;
+                 background: teal;
+                 padding: 5px;
+                 color: #fff;
+                 margin:10px 0px 5px 0px;
+                 cursor: pointer;
+             }
+             .counterBlock {
+                 display: inline-block;
+                 overflow: hidden;
+                 background: transparent;
+                 width: 330px;
+                 height: 30px;
+                display: inline-block;
+                margin-bottom: -10px;
+                outline: 0px;
+               
+                position: relative;
+             }
+             .line {
+                 left: 0px;
+                 right: 0px;
+                 position: absolute;
+                 top: 40%;
+                  padding: 3px;
+                 background: #ffffff ;
+                 border-radius: 3px;
+                 z-index: 200;
+             }
+  h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: #fff;
+    font-family: arial , sans-serif;
+}
+.pall  , .pall2{
+    width: 15px;
+    height: 15px;
+    background: teal;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 201;
+    top: 28%;
+    cursor: pointer;
+}
+/********************  Slider ****************/
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #fff;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 20px;
+  border-radius: 7px;
+  background: teal;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.6px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #fff;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #fff;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 20px;
+  border-radius: 7px;
+  background: teal;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  border-width: 20px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #fff;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: #fff;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 20px;
+  border-radius: 7px;
+  background: teal;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #fff;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #fff;
+}
+
+ 
+.mainDivContainer b {
+    float: left;
+}
+.slideContainer {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+.top_options  {
+    top: 0px;
+    bottom: auto;
+    background: #222;
+    margin: 0px 15px;
+    color: #fff;
+}
+
+#menu-top {
+    display: inline-block;
+    overflow: hidden;
+    list-style: none;
+}
+#menu-top  li {
+    display: inline;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu-top  li a {
+    color: #fff;
+    font-weight: bold;
+    font-family: arial , sans-serif;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    display: block;
+    background: teal;
+    border-left: 1px solid #035858;
+    cursor: pointer;
+    transition: all , 0.3s , ease-in-out;
+    -moz-transition: all , 0.3s , ease-in-out;
+    -webkit-transition: all , 0.3s , ease-in-out;
+}
+#menu-top  li a:hover ,#menu-top  li a:active,#menu-top  li a:focus,#menu-top  li a:visited{
+    background: #000;
+    box-shadow: 0px 0px 1px #fff;
+}
+ 
+.versions-data {
+    background: #222;
+    border-top: 1px solid #444;
+}
+.ruler-controler {
+    position: relative;
+}
+.top_options , .options-data , .v-rsit{
+    display: none;
+}
+ 
+.display_image {
+  
+}
+
+.for-mobile {
+             display: none;
+        }
+
+    .ruler_container {
+                transition:all 1s linear;
+                -webkit-transition: all 1s linear;
+                -moz-transition:  all 1s linear;
+               
+                  transform-origin: top left;
+                  transform-style: preserve-3D;
+                   position: absolute;
+                 }
+                 
+                 
+   
+     #main-mobile-menu {
+        bottom: 0px;
+        position: absolute ;
+        height: auto;
+        left: 0px;
+        right: 0px;
+        overflow: hidden;
+    }           
+                 
+   
+    #main-mobile-menu {
+         overflow: hidden;
+        padding: 3px 8px;
+        background: teal;
+        float: right;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 3px;
+        position: fixed;
+     }
+    
+    
+    
+    #main-mobile-menu i {
+        color: #fff;
+    }      
+   
+    
+    .main-options {
+        list-style: none;
+        bottom: 50px ;
+        left:  15px;
+        position: fixed;
+        padding: 0px;
+        margin: 0px;
+    }
+    .main-options li {
+        display: block;
+         padding: 4px 7px;
+         background: #222;
+         border-bottom: 1px solid #555;
+    }
+    .main-options li:hover {
+      background: #555;  
+    }
+    .main-options li i {
+        cursor: pointer;
+        color: #fff;
+     }
+    #main-mobile-menu  i {
+        float: left;
+        padding: 5px;
+    }
+    #main-mobile-menu span {
+        color: #fff;
+        padding-top: 2px;
+        font-weight: bold;
+        float: left ;
+    }
+    #main-mobile-menu a, #main-mobile-menu a:hover {
+        float: right;
+        padding: 2px 5px;
+        color: #fff;
+        font-size: 13px;
+        font-family: arial,sans-serif;
+    }
+    
+    
+     
+   
+    .screen-dimens li {
+        display: inline;
+        cursor: pointer;
+        
+       
+    }
+    .screen-dimens li a {
+        color: #fff;
+    }
+    .screen-dimens li a:hover {
+        color: tomato;
+    }
+   /*
+    //*********************************************
+        Screen Resizing for all Devices 
+    //**********************************************
+   */         
+   
+   
+   @media only screen and (min-width:1100px) and (max-width:1200px){
+       button , #menu-top li a {
+           padding: 5px 5px;
+        }
+        
+   }
+   
+    @media only screen and (min-width:840px) and (max-width:1100px){
+       button , #menu-top li a {
+             padding: 3px 5px;
+           font-size: 12px;
+        }
+        button {
+            margin: 10px 4px;
+        }
+        
+   }
+   
+    @media only screen and (min-width:759px) and (max-width:840px){ 
+      #menu-top li a {
+             padding: 3px 5px;
+           font-size: 12px;
+        }
+        
+        button  {
+             font-size: 12px;
+             padding: 2px 2px;
+        }
+    }
+    
+    @media only screen and  (max-width:759px){ 
+        /*
+            PC and Big monitors will be hidden 
+        */
+        .for-pcs {
+            display: none;
+        }
+        
+        
+        /*
+            Mobile and small Device will display
+        */
+        .for-mobile {
+             display: block;
+        }
+        
+    }
+    
+   .screen-dimens {
+        list-style: none;
+        background: #222;
+        margin: 0px;
+        padding: 0px;
+       bottom: 130px;
+       left: 60px;
+       position: absolute;
+      
+       right: 10px;
+       border-radius: 5px;
+       padding: 0px 5px;
+        display: none;
+    }
+    .styles-menubar,.module-menubar,.moving-menubar {
+         list-style: none;
+        border-radius: 10px;
+        margin: 0px;
+        padding: 0px;
+       bottom: 60px;
+       left: 60px;
+       position: absolute;
+     display: none;
+       right: 10px;
+       border-radius: 5px;
+       padding: 0px 5px;
+       
+    }
+    .styles-menubar li,.module-menubar li ,.moving-menubar li{
+        display: block;
+        cursor: pointer;
+     }
+    .module-menubar li a , .moving-menubar li a {
+        color: #fff;
+        padding: 5px;
+       
+    }
+    .module-menubar , .moving-menubar {
+        background: #222;
+    }
+     .main-options-menu {
+       
+        display: block;
+        overflow: hidden;
+        background: #222;
+        
+    }
+    
+    .screen-dimens , .styles-menubar ,.moving-menubar , .module-menubar {
+        position: fixed;
+    }
